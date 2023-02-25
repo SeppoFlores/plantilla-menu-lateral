@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
+	<title>Plantilla Menu Lateral</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="" media="screen and (min-width: 426px)">
+    <link rel="stylesheet" href="" media="screen and (min-width: 769px)">
+</head>
+<body>
+    <div class="navbutton-container">
+        <div class="navbutton-grid">
+            <a href="#section-one" data-section="section-one" class="navbutton" ></a>
+            <a href="#section-two" data-section="section-two" class="navbutton" ></a>
+            <a href="#section-three" data-section="section-three" class="navbutton" ></a>
+            <a href="#section-four" data-section="section-four" class="navbutton" ></a>
+        </div>
+    </div>
+    <nav class="mobile-nav">
+            <a href="#section-one" data-section="section-one" class="mobile-links">Uno</a>
+            <a href="#section-two" data-section="section-two" class="mobile-links">Dos</a>
+            <a href="#section-three" data-section="section-three" class="mobile-links">Tres</a>
+            <a href="#section-four" data-section="section-four" class="mobile-links">Cuatro</a>
+        </nav>
+        <nav class="desktop-nav">
+            <h1><a href="/" class="nav-links nav-links--home">Plantilla</a></h1>
+            <ul class="nav-link-container">
+                <li><a href="#section-one" data-section="section-one" class="nav-links">Uno</a></li>
+                <li><a href="#section-two" data-section="section-two" class="nav-links">Dos</a></li>
+                <li><a href="#section-three" data-section="section-three" class="nav-links">Tres</a></li>
+                <li><a href="#section-four" data-section="section-four" class="nav-links">Cuatro</a></li>
+            </ul>
+            
+            <button class="hamburguer">
+                <div class="bar"></div>
+            </button>
+    </nav>
+    <main>
+        <section id="section-one">
+            <div class="section__content">
+                <img src="" alt="" class="section__bg">
+                <h2 class="section__content-description">Uno</h2>
+                <a href="#" class="section__content-btn ">Conoce más</a>
+            </div>
+        </section>
+        <section id="section-two">
+            <div class="section__content">
+                <img src="" alt="" class="section__bg">
+                <h2 class="section__content-description">Dos</h2>
+                <a href="#" class="section__content-btn ">Conoce más</a>
+            </div>
+        </section>
+        <section id="section-three">
+            <div class="section__content">
+                <img src="" alt="" class="section__bg">
+                <h2 class="section__content-description">Tres</h2>
+                <a href="#" class="section__content-btn section__content-btn--dark">Conoce más</a>
+            </div>
+        </section>
+        <section id="section-four">
+            <div class="section__content">
+                <img src="" alt="" class="section__bg">
+                <h2 class="section__content-description">Cuatro</h2>
+                <a href="#" class="section__content-btn section__content-btn--dark">Conoce más</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="./js/main.js"></script>
+<script src="./js/fullScreenNav.js"></script>
+
+</html>
